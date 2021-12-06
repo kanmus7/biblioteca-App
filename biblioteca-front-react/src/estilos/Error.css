@@ -1,0 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+/* Error 404 */
+
+.contenedor-error{
+padding: 3rem;    
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-shadow: 0 4px 3px rgb(0 0 0 / 40%), 0 8px 13px rgb(0 0 0 / 10%), 0 18px 23px rgb(0 0 0 / 10%);
+}
+
+.tituloError h2{
+    font-size: 80px;
+    color: #000000;
+}

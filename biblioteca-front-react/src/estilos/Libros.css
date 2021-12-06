@@ -1,0 +1,175 @@
+/* Libro */
+.libros-container{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,5fr);
+    justify-items: center;
+    gap: 40px;
+}
+
+.libro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0px -1px 16px 2px rgba(0,0,0,0.27);
+    width: 100%;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+
+.img-container > img{
+    width: 300px;
+    height: 100%;
+}
+
+.img-container > p {
+    position: absolute;
+    top: 161px;
+    left: 50px;
+    z-index: -1;
+    padding: 10px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.imagenLibro:hover{      
+    cursor: pointer;
+	opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;    
+}
+
+.detalles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.infoLibro-container{
+    padding: 1rem;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.favorito{
+    cursor: pointer;
+}
+
+/* Detalle Libro */
+.detalleLibro-Section, .editarLibro-seccion{
+    padding: 2rem;
+}
+
+.libro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.libro-info{
+    background-color: rgba(255, 235, 205, 0.452);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    border: double  rgb(65, 65, 65);
+    border-style: double;
+    padding: 1rem;
+}
+
+.imagen-container > img{
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 430px;
+    box-shadow: 0px -1px 16px 2px rgb(0 0 0 / 27%);
+}
+
+.detalleLibro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.detalleLibro{
+    list-style: none;
+}
+
+.descripcionLibro{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.btn-container> button, .btn-container> a > button{
+    padding: 2rem;
+    font-size: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-container> button:hover, .btn-container> a > button:hover{
+   background-color: rgba(222, 184, 135, 0.685);
+}
+
+.editarLink{
+    text-decoration: none;
+    color: black;
+}
+
+.editarLink:hover{
+    color: black;
+}
+
+/* Editar Libro */
+
+.formulario-edicion{
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.mb-3 {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    max-width: 500px; 
+    
+}

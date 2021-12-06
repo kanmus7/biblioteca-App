@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "Titulo": "1984",
+        "img": "https://lapiedradesisifo.com/wp-content/uploads/2018/04/Portada-de-1984.jpg",
+        "Autor": "George Orwell",
+        "Año": "1947",
+        "Genero": "Novela de ficción distópica",
+        "Descripcion": "1984 es una novela distópica de George Orwell publicada en 1949, que sigue la vida de Winston Smith , un miembro de bajo rango del Partido, que se siente frustrado por los ojos omnipresentes del partido y su ominoso gobernante Gran Hermano. 'Gran Hermano' controla todos los aspectos de la vida de las personas. "
+    },
+    {
+        "id": "2",
+        "Titulo": "Robinson Crusoe",
+        "img": "https://i.pinimg.com/originals/42/1a/5d/421a5d415a60c8a8be70aed2a89b87a0.jpg",
+        "Autor": "Daniel Defoe ",
+        "Año": "1719",
+        "Genero": "Novela de ficción de aventuras",
+        "Descripcion": "Robinson Crusoe es un marino de York que, en una expedición por África en barco, es capturado por unos piratas y se convierte en esclavo. ... Juntos deciden ayudar a los demás prisioneros capturados por los indígenas, uno de los cuales es un español que también es un náufrago que aguarda la llegada de un barco. "
+    },
+    {
+        "id": "3",
+        "Titulo": "Crimen y Castigo",
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/74/13/7413c123e20c1736198f2dcdc49bba39.jpg",
+        "Autor": "Fiódor Dostoyevski",
+        "Año": "1866",
+        "Genero": "Novela psicológica",
+        "Descripcion": "La historia narra la vida de Rodión Raskólnikov, un estudiante en la capital de la Rusia Imperial, San Petersburgo. Este joven se ve obligado a suspender sus estudios por la miseria en la cual se ve envuelto, a pesar de los esfuerzos realizados por su madre Pulqueria y su hermana Dunia para enviarle dinero."
+    },
+    {
+        "id": "4",
+        "Titulo": "21 lecciones sobre el siglo XXI",
+        "img": "https://m.media-amazon.com/images/I/41cktQdRi+L.jpg",
+        "Autor": "Yuval Noah Harari",
+        "Año": "2018",
+        "Genero": "Ensayo",
+        "Descripcion": "Con la misma prosa inteligente, fresca y provocativa, Harari vuelve con su nuevo título, 21 lecciones para el siglo XXI, donde examina algunas de las cuestiones más urgentes de nuestro presente y ofrece una reflexión sobre el sentido de la vida hoy en día."
+    },
+    {
+        "id": "5",
+        "Titulo": "Amor redentor",
+        "img": "https://m.media-amazon.com/images/I/51Rz8hVt7pL.jpg",
+        "Autor": "Francine Rivers",
+        "Año": "1991",
+        "Genero": "Novela romántica",
+        "Descripcion": "Amor redentor es un relato conmovedor basado en el libro de Oseas, que nos describe la historia de un cambio de vida gracias al amor incondicional, liberador y ferviente de Dios."
+    },
+    {
+        "id": "6",
+        "Titulo": "Politica para amador",
+        "img": "https://p.calameoassets.com/180806043114-b1734aab0ce9be488ec11e795acbc5e8/p1.jpg",
+        "Autor": "Fernando Savater",
+        "Año": "1991",
+        "Genero": "Ensayo",
+        "Descripcion": "Política para Amador es un ensayo escrito en 1992 por el escritor y filósofo español Fernando Savater que trata sobre la organización política a través de la historia. ... Se basa en el anterior libro escrito por Savater, Ética para Amador, porque lo que nos quiere explicar, es el término «política» con la misma dinámica."
+    }
+]
