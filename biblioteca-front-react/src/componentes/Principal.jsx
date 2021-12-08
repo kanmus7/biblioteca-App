@@ -15,7 +15,6 @@ const Principal = ({ librosFavoritos, setLibrosFavotiros, libros, setLibros }) =
     useEffect(() => {
         getLibros(setLibros)
     }, [])
-
     return (
         <>
             <Encabezado>

@@ -2,15 +2,20 @@ import React from 'react'
 import '../../estilos/Libros.css'
 
 const MostrarLibros = (props) => {
-    let libros = props.libros
+    let libros = props.libros    
 
     if (props.buscarGenero.click) {
         libros = BuscarGenero(libros)
     }
+
     libros = BuscarLibro(libros)
 
     function BuscarGenero(libros) {
-        if (props.buscarGenero.click && props.buscarGenero.genero !== 'Todos') { return libros.filter((libro) => { return libro.Genero === props.buscarGenero.genero }) }
+        if (props.buscarGenero.click && props.buscarGenero.genero !== 'Todos') {
+            return libros.filter(libro => {
+                return libro.Genero.trim() === props.buscarGenero.genero
+            })
+        }
         if (props.buscarGenero.genero === 'Todos') { return libros }
     }
 
